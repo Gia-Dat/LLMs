@@ -15,6 +15,18 @@ Some dependencies we use `uv` to install:
 * `ingest.py`: loading data and building the search index
 * `rag_helper.py`: the RAG logi (search, prompt, LLM)
 
+## Data Ingestion:
 
+* `sqlite-ingest.ipynb`: fetches data and writes it to a persistent index
+
+### Choosing right tool: 
+
+* `minsearch`: single process, in-memory only, re-indexes on every startup, use when data is small and indexing is fast.
+* `sqlitesearch`: separate ingestion and query, file-based (SQLite), open existing index. Use when data is large or ingestion is slow.
+* `Elasticsearch`
+* `OpenSearch`
+* `Qdrant`(vector database)
+
+Architecture stays the same: one process ingests, another queries.
 
 

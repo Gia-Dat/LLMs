@@ -10,4 +10,11 @@ Some dependencies we use `uv` to install:
 * `jupyter`: notebook environment
 * `python-dotenv`: load API keys from .env file 
 
+## RAG Helper:
+
+* `ingest.py`: loading data and building the search index
+* `rag_helper.py`: the RAG logi (search, prompt, LLM)
+
+
+
 

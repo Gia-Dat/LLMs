@@ -29,4 +29,15 @@ Some dependencies we use `uv` to install:
 
 Architecture stays the same: one process ingests, another queries.
 
+## Agent Frameworks:
+
+* ToyAIKits: course built-in frameworks, easy for study and experimentation
+
+Some others popular frameworks:
+
+* OpenAI Agents SDK
+* Pydantic AI
+* LangChain/ LangGraph
+* Google ADK
+
 

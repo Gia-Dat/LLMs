@@ -1,0 +1,6 @@
+1. 72 lesson pages
+2. '01-agentic-rag/lessons/14-agentic-loop.md'
+3. ~7000 tokens
+4. 295 chunks
+5. Chunk usage: ~2400 tokens => 3x fewer
+6. Agent calls search tool for 4 times

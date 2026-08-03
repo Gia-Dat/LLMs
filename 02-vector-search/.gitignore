@@ -1,3 +1,10 @@
 .venv
 .env
+data
+__pycache__
+Dockerfile
+docker-compose.yaml
+pyproject.toml
+uv.lock
+.python-version
 llm-zoomcamp-onnx/models/
